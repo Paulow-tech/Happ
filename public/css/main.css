@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    /* This font-size can be used for reference rem measures. 
+    The value is multiplicate for number of propriety in seletor. 
+    The Default Browser font-size is 16px. */
+}
+body{
+    height: 100vh;
+    color: white;
+    background:#Ebf2f5;
+}
+body, input, button, textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
